@@ -1,0 +1,47 @@
+{
+    "name": "@easeauth/express",
+    "private": false,
+    "version": "1.0.2",
+    "license": "MIT",
+    "description": "This repository contains an npm package for Express that provides middleware to protect routes and ensure safe API usage by preventing unauthorized access.",
+    "author": {
+        "name": "Sikandar",
+        "email": "sikandar.moyal.dev@gmail.com"
+    },
+    "main": "dist/index.js",
+    "types": "dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "http-errors": "^2.0.0",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/jsonwebtoken": "^9.0.6",
+        "@types/node": "^22.1.0",
+        "typescript": "^5.5.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/easeauth/easeauth-express.git"
+    },
+    "keywords": [
+        "express",
+        "middleware",
+        "authentication",
+        "api-security",
+        "authorization",
+        "typescript"
+    ],
+    "bugs": {
+        "url": "https://github.com/easeauth/easeauth-express/issues"
+    },
+    "homepage": "https://github.com/easeauth/easeauth-express#readme",
+    "files": [
+        "dist/**/*"
+    ]
+}
